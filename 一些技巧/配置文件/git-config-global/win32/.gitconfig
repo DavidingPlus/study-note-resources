@@ -1,0 +1,8 @@
+[user]
+	email = davidingplus@qq.com
+	name = DavidingPlus
+[core]
+	quotepath = false
+	editor = vim
+	ignorecase = false
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
