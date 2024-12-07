@@ -1,0 +1,222 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 117,
+    "initialRows": 28,
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {
+            "backgroundImage": "D:\\Scoop\\persist\\windows-terminal\\images\\earth.jpg",
+            "backgroundImageOpacity": 0.4,
+            "bellStyle": [
+                "audible",
+                "window",
+                "taskbar"
+            ],
+            "colorScheme": "Campbell",
+            "cursorShape": "bar",
+            "font": {
+                "cellHeight": "1.2",
+                "face": "MesloLGS NF",
+                "size": 13
+            },
+            "opacity": 65,
+            "suppressApplicationTitle": true,
+            "useAcrylic": false
+        },
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": {
+                    "face": "MesloLGS NF",
+                    "size": 13
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "useAcrylic": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Cmd"
+            },
+            {
+                "commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
+                "guid": "{a20e9801-dab7-4ef4-8161-5479e9f9c61d}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Wsl Ubuntu",
+                "startingDirectory": "~"
+            },
+            {
+                "commandline": "ssh lzx0626@192.168.32.130",
+                "font": {
+                    "face": "MesloLGS NF",
+                    "size": 13
+                },
+                "guid": "{5317e9b1-b485-4b23-b76f-975aa02eaa48}",
+                "hidden": false,
+                "icon": "D:\\Documents\\\u7167\u7247\\Ubuntu.png",
+                "name": "LarkSDK Ubuntu 20.04",
+                "startingDirectory": "~"
+            },
+            {
+                "commandline": "ssh lzx0626@192.168.32.129",
+                "font": {
+                    "face": "MesloLGS NF",
+                    "size": 13
+                },
+                "guid": "{3a386a06-77a4-418e-a0fa-011d1a99bfcd}",
+                "hidden": false,
+                "icon": "D:\\Documents\\\u7167\u7247\\Ubuntu.png",
+                "name": "Linux Kernel 5.15.167",
+                "startingDirectory": "~"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "powershell.exe -NoExit -Command \"&{$workspacePath='D:\\Workspace\\lark5\\larksdk'; Import-Module 'D:\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell 3f196e61 -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64'; Set-Location $workspacePath; $env:PATH += ';' + $workspacePath + '\\build\\bin\\Debug'}\"",
+                "guid": "{5707b5f0-f764-4f99-ace8-ac209324b2db}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/vs-powershell.png",
+                "name": "LarkSDK Win32",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "powershell.exe -NoExit -Command \"Write-Host 'Setting up environment for Qt usage...'; $env:PATH = 'D:\\Qt\\5.15.2\\mingw81_64\\bin;D:/Qt/Tools/mingw810_64\\bin;' + $env:PATH; Set-Location -Path 'D:\\Qt\\5.15.2\\mingw81_64'\"",
+                "font": {
+                    "face": "MesloLGS NF",
+                    "size": 13
+                },
+                "guid": "{d478a163-7c13-42a6-a977-6991237fd67a}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Qt 5.15.2 (MinGW 8.1.0 64-bit)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{40a344cc-eefb-5427-8f24-397bcb442dea}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{3e520997-ce80-5112-b375-0a60930d8b2d}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "ssh root@162.14.111.242",
+                "font": {
+                    "face": "MesloLGS NF",
+                    "size": 13
+                },
+                "guid": "{551a4f87-0167-4fe7-b40c-01abc5f864a6}",
+                "hidden": false,
+                "name": "162.14.111.242",
+                "startingDirectory": "~"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-20.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        }
+    ],
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
