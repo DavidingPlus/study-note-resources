@@ -128,7 +128,7 @@
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "automatic",
-                "commandline": "powershell.exe -NoExit -Command \"Write-Host 'Setting up environment for Qt usage...'; $env:PATH = 'D:\\Qt\\5.15.2\\mingw81_64\\bin;D:/Qt/Tools/mingw810_64\\bin;' + $env:PATH; Set-Location -Path 'D:\\Qt\\5.15.2\\mingw81_64'\"",
+                "commandline": "powershell.exe -NoExit -Command \"Write-Host 'Setting up environment for Qt usage...'; $env:PATH = 'D:\\Qt\\5.15.2\\mingw81_64\\bin;D:/Qt/Tools/mingw810_64\\bin;' + $env:PATH; Set-Location -Path 'D:\\Qt\\5.15.2\\mingw81_64'",
                 "font": {
                     "face": "MesloLGS NF",
                     "size": 13
