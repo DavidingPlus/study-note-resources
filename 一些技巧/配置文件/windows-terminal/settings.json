@@ -94,7 +94,7 @@
                 },
                 "guid": "{5317e9b1-b485-4b23-b76f-975aa02eaa48}",
                 "hidden": false,
-                "icon": "D:\\Documents\\\u7167\u7247\\Ubuntu.png",
+                "icon": "D:\\Documents\\images\\Ubuntu.png",
                 "name": "LarkSDK Ubuntu 20.04",
                 "startingDirectory": "~"
             },
@@ -106,7 +106,7 @@
                 },
                 "guid": "{3a386a06-77a4-418e-a0fa-011d1a99bfcd}",
                 "hidden": false,
-                "icon": "D:\\Documents\\\u7167\u7247\\Ubuntu.png",
+                "icon": "D:\\Documents\\images\\Ubuntu.png",
                 "name": "Linux Kernel 5.15.167",
                 "startingDirectory": "~"
             },
@@ -128,7 +128,7 @@
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "automatic",
-                "commandline": "powershell.exe -NoExit -Command \"Write-Host 'Setting up environment for Qt usage...'; $env:PATH = 'D:\\Qt\\5.15.2\\mingw81_64\\bin;D:/Qt/Tools/mingw810_64\\bin;' + $env:PATH; Set-Location -Path 'D:\\Qt\\5.15.2\\mingw81_64'",
+                "commandline": "powershell.exe -NoExit -Command \"Write-Host 'Setting up environment for Qt usage...'; $env:PATH = 'D:\\Qt\\5.15.2\\mingw81_64\\bin;D:/Qt/Tools/mingw810_64\\bin;' + $env:PATH; Set-Location -Path 'D:\\Qt\\5.15.2\\mingw81_64'\"",
                 "font": {
                     "face": "MesloLGS NF",
                     "size": 13
